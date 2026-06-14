@@ -33,22 +33,6 @@ export default function Navbar({ scrolled }) {
             )
           })}
         </ul>
-
-        <div className="nav-cta">
-          <motion.a
-            href="#reserve"
-            className="btn btn-primary"
-            initial={{ opacity: 0, scale: 0.9 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.5, delay: 0.8, ease: [0.25, 0.46, 0.45, 0.94] }}
-            whileHover={{
-              scale: 1.05,
-              boxShadow: '0 20px 50px rgba(230, 48, 39, 0.35), 0 0 20px rgba(230, 48, 39, 0.15)',
-              transition: { duration: 0.3 }
-            }}
-          >
-            Order Now
-          </motion.a>
           <button className="nav-toggle" onClick={() => setOpen(!open)} aria-label="Toggle menu">
             {open ? '✕' : '☰'}
           </button>
