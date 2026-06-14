@@ -74,7 +74,6 @@ export default function Footer() {
           >
             <h4>ACTIONS</h4>
             <ul>
-              <li><a href="#reserve">Reserve Table</a></li>
               <li><a href="#reserve">Order Online</a></li>
               <li><a href="#reserve">Business Queries</a></li>
               <li><a href="#contact">Contact Us</a></li>
